@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="shortcut icon" href="./캡처.ico"> 
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="row">
+            <div class="center">
+                
+                <a id="home" href="./a.html" class="name-title-link">
+                    <h1 class="name-title">
+                        WHO AM I
+                    </h1>
+                </a>
+            </div>
+        </header>
+        <hr>
+
+        <!--Main Image -->
+        
+        <div class="img-row">
+            <div class="img-col">
+                <img src="./me1.jpg" alt="" style="width:100%">
+            </div>
+                
+            <div class="img-col">
+                <img src="./me3.jpg" alt="" style="width:100%">
+            </div>
+                
+            <div class="img-col">
+                <img src="./me2.jpg" alt="" style="width:100%">
+            </div>
+                
+        </div>
+
+        <div class="title-container">
+            <h5 class="show-text">Welcome to my page!</h5>
+        </div>
+        <!--<hr style="border-style: dotted; width:100%">-->
+        
+
+        <style> 
+        #floatdiv { 
+            position:fixed; 
+            width:175px; 
+            display:inline-block; 
+            right:0px; /* 창에서 오른쪽 길이 */ 
+            top:40%; /* 창에서 위에서 부터의 높이 */ 
+            background-color: transparent; 
+            margin:0; 
+            } 
+        </style> 
+        
+        <div id="floatdiv" style="border:5px solid cornflowerblue; height: auto; width: auto; text-align: center;">
+            <div style="margin: 20px;"><a href="#home" style="text-decoration: none; color: cornflowerblue;">HOME</a></div>
+            <hr  style="border:1px solid cornflowerblue;">
+            <div style="margin: 20px;"><a href="#about" style="text-decoration: none; color: cornflowerblue;">ABOUT</a></div>
+            <hr  style="border:1px solid cornflowerblue;">
+            <div style="margin: 20px;"><a href="#interest" style="text-decoration: none; color: cornflowerblue;">INTEREST</a></div>
+            <hr  style="border:1px solid cornflowerblue;">
+
+        </div>
+
+ 
+
+
+
+
+        <!--About me-->
+        <div class="about">
+            <h3 id="about">About <b>Hoon</b></h3>
+            <p class="about-text">I'm Kim Jae-hoon. I am majoring in computer engineering in Korea. I'm interested in <span style="color:cornflowerblue"><b>Web programming</b></span> , so I'm constantly studying.  Through this assignment, I am learning html, css. Compared to other programming languages, it seems to approach structurally, so I am still immature, but I will try my best to make a site!! 🚀🚀</p>
+            <p>My goal is to experience development in various fields before graduation. So far, I have been learning about video processing (Opencv) and autonomous driving, and now I am interested in <span style="color: cornflowerblue;"><b>Back-End</b></span>  and started studying Back-End. I'm consistently recording my studies through GitHub.  If you want to check my study record, please click this <a href="https://github.com/zaehuun" target="_blank" style="text-decoration: none; color: cornflowerblue;"><b>link</b></a>. </p>
+        </div>
+
+
+
+
+
+
+        <style>
+
+.public_profile {
+     width: 100%;
+     display: flex;
+     align-items: center;
+}
+.public_profile .profile_image {
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     margin-right: 15px;
+     overflow: hidden;
+}
+.public_profile .profile_image.business {
+     background-color: #fdb902;
+}
+
+
+}
+        </style>
+       <!--Interest-->
+        <div class="interest">
+            <h3 id="interest">Interest</h3>
+            
+            <div class="public_profile" style="margin-bottom: 50px;">
+                <div class="profile_image business">
+                  <a href="./a.html"><img id="food" src="요리.png"/></a>
+                </div>
+                <div>
+                  <strong>Cooking</strong>
+                    <p>요리를 좋아하는 가정적인 남자..</p>
+                </div>
+           </div>
+
+           <div class="public_profile">
+            <div class="profile_image business">
+              <a href="./a.html"><img id="food" src="요리.png"/></a>
+            </div>
+            <div>
+              <strong>Music</strong>
+                <p>음악을 사랑하는 감성적인 남자..</p>
+            </div>
+       </div>
+
+            
+        </div>
+        
+
+
+
+        <footer>
+            <p>&copy; 2020 zaehuun</p>
+        </footer>
+       
+        
+    </div>
+</body>
+</html>
