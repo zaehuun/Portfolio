@@ -133,6 +133,7 @@ hr {
 
 .about {
   padding: 10px;
+  margin-top: 1px;
 }
 
 .interset {
@@ -150,9 +151,7 @@ hr {
   width: 200px;
 }
 
-.about{
-  margin-top: 1px;
-}
+
 .about-text {
   margin-top: 1px;
   padding: 1px;
