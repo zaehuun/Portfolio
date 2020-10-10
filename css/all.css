@@ -1,3 +1,19 @@
+nav{
+    text-align: center;
+}
+
+.color-txt{
+  color:cornflowerblue;
+}
+
+.color-link{
+  text-decoration: none; 
+  color: cornflowerblue;
+}
+
+.white-txt{
+  color: white;
+}
 h3, h4, header{
   font-family: "Roboto", sans-serif;
 }
@@ -56,7 +72,7 @@ li a:hover {
 
 .row {
     width: 100%;
-    height: 100px;
+    height: 10%; /*100px*/
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -168,11 +184,15 @@ li a:hover {
 }
 .public_profile .profile_image {
         border-radius: 50%;
-        width: 120px;
-        height: 120px;
+        width: 20%; /*120*/
+        height: 20%; /*120px*/
         margin-right: 50px;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         
+}
+
+.prof-img{
+  width: 150px;
 }
 
 /* About txt */
@@ -324,6 +344,13 @@ div.snip1200.hover p {
 
 
 /* edm img */
+.art-img{
+  width: 250px;
+}
+.song-name, .song{
+  text-align: center;
+}
+
 .edm_profile {
     width: 100%;
     display: flex;
@@ -368,7 +395,30 @@ a#cat_link:hover { color:cornflowerblue; text-decoration: underline;}
     width: 75%;
 }
 
+/* CODING */
+.exp{
+  text-align: center;
+  width:100%;
+  height:260px;
+}
+.code-work{
+  border: 1px solid #879;
+}
+.code-img-row{
+  width:100%;
+  height: 100%;
+}
 
+.code-img-col {
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.code-txt{
+  text-indent: 1em;
+}
 
 
 /* Footer */
